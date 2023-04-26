@@ -1,4 +1,5 @@
 # Integratieopdracht DevOps
+![example workflow](https://github.com/SamAgten/DevOps-Lab-Solution/actions/workflows/sam-OpsDev-CI.yml/badge.svg)
 `voorzie badge hier (zie opgave)`
 
 ## Inleiding
