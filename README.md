@@ -1,6 +1,5 @@
 # Integratieopdracht DevOps
 ![example workflow](https://github.com/SamAgten/DevOps-Lab-Solution/actions/workflows/sam-OpsDev-CI.yml/badge.svg)
-`voorzie badge hier (zie opgave)`
 
 ## Inleiding
 Het bedrijf OpsDev heeft met argusogen de lessen Devops op 2TIN meegevolgd en is zelf aan de slag gegaan aan een eigen versie van de calculator app die we gebruikt hebben tijdens de lessen. Je zou kunnen stellen dat er enkele gelijkenissen zijn tussen de app gebruikt tijdens de les en die van het bedrijf. Naast het ‘op een correcte manier kopiëren van applicaties’ is het bedrijf OpsDev ook vies van Jenkins en (lokaal gehoste) virtuele machines.
@@ -55,7 +54,7 @@ _(f) Wat is Dockerhub juist? Waarvoor kunnen we dat gebruiken?_
 ![alt_text](https://i.imgur.com/5STVnt2.png "image_tooltip")
 _(f) Maak een nieuwe repository aan op dockerhub met de naam opsdev-calculator. Deze maak je publiek en je plaatst de link hieronder bij in de `README.md` file:
 ```
-https://hub.docker.com/r/JOUWURL
+https://hub.docker.com/repository/docker/samagtenpxl/opsdev-calculator
 ```
 
 https://github.com/marketplace/actions/docker-login
