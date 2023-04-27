@@ -1,7 +1,7 @@
 name: OpsDev CD
 
 on:
-  workflow-dispatch:
+  workflow_dispatch:
 
 jobs:
   login:
