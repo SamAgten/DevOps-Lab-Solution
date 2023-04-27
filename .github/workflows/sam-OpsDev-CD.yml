@@ -18,6 +18,13 @@ jobs:
         with:
           push: true
           tags: samagtenpxl/opsdev-calculator:latest
+      - name: Deploy to Azure Web App
+        id: deploy-to-webapp
+        uses: azure/webapps-deploy@v2
+        with:
+          app-name: DevOpsLab
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+          images: 'docker.io/samagten/opsdev-calculator'
       - name: Discord notification
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
